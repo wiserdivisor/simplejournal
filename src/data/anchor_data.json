@@ -1,0 +1,23 @@
+{
+  "home": [
+    { "link": "/#scope", "title": "Scope of EV" },
+    { "link": "/#career", "title": "Careers" },
+    { "link": "/#join", "title": "Joining" },
+    { "link": "/#duration", "title": "Duration" },
+    { "link": "/#certification", "title": "Certification" },
+    { "link": "/#features", "title": "Features" },
+    { "link": "/#objectives", "title": "Objectives" },
+    { "link": "/#practical", "title": "Practical Training" }
+  ],
+  "about":[
+    { "link":"/about#aevrt", "title":"AEVRT" },
+    { "link":"/about#kbp", "title":"KBP" },
+    { "link":"/about#ieas", "title":"IEAS" },
+    { "link":"/about#ahsap", "title":"AHSAP" }
+  ],
+  "franchise":[
+    {"link":"/business#partner","title":"Partner with us"},
+    {"link":"/business#train_fran","title":"Traning Franchise"},
+    {"link":"/business#who_fran","title":"Who can be a franchise?"}
+  ]
+}

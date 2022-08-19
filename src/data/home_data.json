@@ -1,0 +1,150 @@
+{
+  "career_list": [
+    "EV Workshop / Service Station Supervisor",
+    "Maintenance and Repairs Technician",
+    "Field Service Technician",
+    "EV Designer",
+    "EV Digital Controller Programmer",
+    "EV Commercial Officer",
+    "Spare Parts Manager",
+    "Authorized Service Provider",
+    "Authorized Spare Parts Dealer",
+    "EV Manufacturing Unit Assembly Technician",
+    "Online E-Vehicles and spare parts Sales",
+    "EV Hub Motor Repair Specialist",
+    "EV Battery and Charging Stations Specialist",
+    "EV Procurement Officer",
+    "EV Conversion Specialist"
+  ],
+  "join_rev": "India is headed towards becoming a manufacturing hub for electric vehicles in the next five years. The EV industry growth is estimated at Rs.500 billion by 2025. This industry will create the largest employment and self-employment opportunities for semi-skilled and drop out individuals.",
+  "scope": {
+    "part1": "Presently the Electric Vehicle industry is experiencing an acute shortage of manpower with skills at par with the industry's standard requirements. EV-OEM's are aggressuvely gearing up to increase their production capacity. As a result there will be an increase in job (Employment and Self-Employment) opportunities in Indian EV-sector.",
+    "part2": "Ola Electric Bike manufacturing plant in India will be the largest scooter manufacturing facility in the world that will create nearly 10,000 direct jobs."
+  },
+  "join_list": [
+    {
+      "head": "Technical Individuals",
+      "body": " who are already working in the automobile maintenance, repairs & allied services, garages, services centers, spare parts vendors etc."
+    },
+    {
+      "head": "Non-Technical individuals",
+      "body": ", who wish to make a career in the EV-industry."
+    },
+    {
+      "head": "Diploma & Graduate Engineers",
+      "body": ", engaged in maintenance, design, service, etc. supervisors, managers, and other individuals seeking applied theoretical and practical knowledge and exposure and/or desirous of a career change to this fast growing EV Industry."
+    },
+    {
+      "head": "Commercial Individuals",
+      "body": ", commerce graduates or persons from commercial backgrounds like accounts, marketing, sales, logistics can utilize their skills by upgrading their knowledge pertaining to the EV Industry and gain employment in their relevant departments."
+    },
+    {
+      "head": "Upgrade your Services: ",
+      "body": "Companies / Workshops engaged in automobile repair and allied services of internal combustion engines (Petrol & Diesel engines) can upgrade their existing services and start catering to the Electric Vehicle (EV) industry."
+    },
+    {
+      "head": "EV Infrastructure Services: ",
+      "body": "Individuals with financial capacity to establish EV charging stations and battery swapping stations can acquire the required technical knowledge and skills for starting these services."
+    },
+    {
+      "head": "Minimum pre-requisites:",
+      "body": " Basic Education (basic reading and writing). Physically able and ability to perform the practicals and pursue the course."
+    }
+  ],
+  "table": {
+    "table_head": [
+      "Sr.No.",
+      "Training Level & Pre-requisites",
+      "Course Contents",
+      "Duration"
+    ],
+    "table_data": [
+      {
+        "head": "Level 1:",
+        "desc": " Basic Education, individuals with basic technical knowledge & experience.",
+        "content": [
+          "Fundamentals of ICE & EVs",
+          "Fundamentals of Mechanical, Electrical / Electronics Technical"
+        ],
+        "duration": "30 Days"
+      },
+      {
+        "head": "Level 2:",
+        "desc": " ITI or experience in automobiles maintenance and repairs.",
+        "content": [
+          "All of the Above",
+          "Maintenance of EVs",
+          "Assembly of EVs"
+        ],
+        "duration": "45 Days"
+      },
+      {
+        "head": "Level 3:",
+        "desc": " Diploma in Engineering with experience in automobiles or Degree in Engineering.",
+        "content": [
+          "All of the Above",
+          "Design",
+          "Calculation",
+          "Repair of EVs",
+          "Conversion of EVs"
+        ],
+        "duration": "60 Days"
+      },
+      {
+        "head": "EV-Com:",
+        "desc": " Commercial Training in Electric Vehicles Industry. Individuals with acumen and/or experience of marketing sales of spares, tools & other allied equipment.",
+        "content": [
+          "Essential spares for EVs",
+          "Optional accessories required in EVs",
+          "Tools, Spares & Batteries",
+          "Controller, throttle & braking equipment"
+        ],
+        "duration": "30 Days"
+      }
+    ]
+  },
+  "certification": {
+    "part1": "Institute of Engineering & Applied Sciences-Mumbai (IEAS) is a member of the KBP Public Educational Consortium registered under the Bombay Public Trust Act 1950 (Govt of Maharashtra).",
+    "part2": "IEAS certifies all successful students upon successful completion and passing of written and practical examination of their trades. The Certificates are valid for employment & self employment purposes and/or for submitting and processing loan/ financial support proposals with banks, NBFC’s and other financial institutions."
+  },
+  "feat_list": [
+    "Easy to grasp training methodology.",
+    "Online theoretical training and demonstration offered in English, Hindi & Marathi.",
+    "Intensive Offline Practicals on live working equipment and vehicles.",
+    "Factory Trained, Senior Expert Faculty members from engineering background.",
+    "Low setup cost for startup, no special permissions & licenses required.",
+    "No heavy investment on space and expensive equipment.",
+    "Future proof technology ensures long term sustenance and scope."
+  ],
+  "train_obj": [
+    "Foundation course, applied concepts of Electrical & Electronics, understanding, referring & reading schematic circuit diagrams for EV design & troubleshooting.",
+    "Study, discuss and understand the fundamental difference between ICE and EV vehicles.",
+    "Understand the concept and working of HEV, PHEV, EREV vehicle variants.",
+    "Concept and calculation of load, speed, distance / range of EV’s, what is “Le” in EV?",
+    "Study of various motor types, hubs, rechargeable batteries (RB), Controller systems.",
+    "Braking Systems and other essential accessories required in building an EV motor bike.",
+    "Study of cell chemistry, charging concepts & methods, battery sizing for specific requirements.",
+    "Calculations of battery load capacities, safe load current and temperature of battery cell.",
+    "Functions of a Battery Management System (BMS)",
+    "Study and estimation of state of charge, state of health, power and energy densities of RB’s.",
+    "Operation of brushless DC and induction motors to EV vehicles.",
+    "Study and practice on the features of buck, boost converters",
+    "Working & Design and methods of building battery packs,",
+    "Design and building concept of an EV charging station.",
+    "Design and build a DC charging system for various battery charging applications.",
+    "List and identify the key vehicle system requirements , selection and sizing of key components.",
+    "Conversion of petrol bikes and three wheeler rickshaws to Electric vehicle."
+  ],
+  "practical": [
+    "Identification, application and use of various hand tools.",
+    "Use of various measuring, marking, leveling instruments. Analog & digital vernier calipers.",
+    "Using volt-meters, ammeters, multi-meters, battery testers’ analyzers, tachometers, etc.",
+    "Fasteners, cable ties, various adhesives and cleaner chemicals used in EV assembly.",
+    "Study and practices on electric arc welding, angle grinders, electric drill, etc.",
+    "Practical Soldering – De Soldering, Bosch dremel/mini grinding tool, power tools such as cordless impact drivers, screw drivers, riveting tool.",
+
+    "Wire lug crimping, wiring, wire stripping tools, wire jointing techniques, testing & fault finding and fault rectification in wiring connectors, electrical insulation, water proofing, routing and securing wiring harnesses.",
+    "Assembly and retro fitting of Electric bikes.",
+    "Frequently occurring problems and troubleshooting of an Electric Bike."
+  ]
+}

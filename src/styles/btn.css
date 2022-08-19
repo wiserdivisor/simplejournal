@@ -1,0 +1,26 @@
+.btn {
+  border: 1px solid #333;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px 15px 3px 15px;
+  text-shadow: 0 0 2px grey;
+  margin: 10px 0px 0px 0px;
+  animation-name: hoverShadow;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.btn:hover {
+  filter: drop-shadow(0 0 0.75rem skyblue);
+}
+
+@keyframes hoverShadow {
+  from {
+    box-shadow: 0 2px 2px black;
+  }
+  to {
+    box-shadow: 0 2px 15px black;
+  }
+}

@@ -5,7 +5,7 @@ import { Section } from "../components/section";
 const HomePage = () => {
 
   return (
-    <Layout pageTitle="Digital Journal of Science and Technology">
+    <Layout pageTitle="Digital Journal of Science and Technology" pageSubTitle="A KBP Trust & Institute of Engineering and Applied Sciences Initiative">
       <Section title="Editorial Team">
           <ul>
               <li>Team Member A</li>
@@ -16,6 +16,8 @@ const HomePage = () => {
               <li>Team Member A</li>
           </ul>
       </Section>
+      <Section borderColor="white" title=""></Section>
+        
     </Layout>
   );
 };

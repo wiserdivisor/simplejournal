@@ -1,8 +1,6 @@
 import React from "react";
 import data from "../data/anchor_data.json";
 import "../styles/footer.css";
-import { StaticImage } from "gatsby-plugin-image";
-import VisitSite from "../components/visitSiteButton";
 
 function FooterColumn({
   title = "Header",
@@ -36,16 +34,14 @@ const Footer = () => {
   const franchiseList = data.franchise;
 
   return (
-    <div>
+    <div style={{ alignSelf:"flex-end" }}>
       <div
         style={{
-          position: "sticky",
-          width: "inherit",
           textAlign: "center",
           bottom: 0,
           color: "white",
           fontSize: 10,
-          margin: "10px 0px 0px 0px",
+          margin: "0px 0px 0px 0px",
           padding: "10px 0px 10px 0px",
           backgroundColor: "rgba(0,0,0,0.5)",
         }}
@@ -55,13 +51,13 @@ const Footer = () => {
 
       <div className="footer-div">
         <div className="footer-flex">
-          <FooterColumn title="Course" links={homeList} />
+          <FooterColumn title="Home" links={homeList} />
           <FooterColumn title="About" links={aboutList} />
           <FooterColumn title="Business" links={franchiseList} />
         </div>
       </div>
 
-      <div className="copyright-band">Copyright © AEVRT (India) 2021</div>
+      <div className="copyright-band">Copyright © Digital Journal of Science and Technology (India) 2021</div>
 
     </div>
   );

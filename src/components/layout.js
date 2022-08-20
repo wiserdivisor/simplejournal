@@ -3,11 +3,10 @@ import "../styles/layout.css";
 import { Helmet } from "react-helmet";
 import Navbar from "./navbar";
 import Footer from "./footer";
-import { StaticImage } from "gatsby-plugin-image";
 import favicon from "../images/favicon.ico";
 import logo from "../images/avert.png";
 
-const Layout = ({ pageTitle, children }) => {
+const Layout = ({ pageTitle, pageSubTitle="Digital Journal of Science and Technology", children }) => {
   return (
     <main className="container">
       <Helmet
@@ -47,18 +46,25 @@ const Layout = ({ pageTitle, children }) => {
           style={{
             display: "flex",
             alignItems: "center",
-            justifyContent: "center",
+            justifyContent: "center", flexDirection:"column",
           }}
         >
           <p className="headerText" style={{margin:"25px 0px 20px 0px"}}>{pageTitle}</p>
+          <p className="headerSubtext">{pageSubTitle}</p>
         </div>
       </div>
 
       <Navbar title={pageTitle} />
-      <div style={{ minWidth: 500, maxWidth: "50%", margin: "auto" }}>
-        {children}
+      <div style={{ minWidth:"300px", maxWidth: "60%", display:"flex", flexDirection:"row" }}>
+        <div style={{ width:"65%", borderRight:"1px solid #3399cc" }}> 
+          {children}
+        </div>
+        <div style={{ width:"35%" }}> 
+          <div style={{ color:"#3399cc", fontWeight:"bold", padding:"20px" }}>
+            Publications
+          </div>
+        </div>
       </div>
-
       <Footer />
     </main>
   );

@@ -4,9 +4,8 @@
   z-index: 2;
   border-bottom-style: solid;
   border-bottom-width: 2;
-  border-bottom-color: teal;
-  background-color: #fff;
-  background-color: #7c6c80;
+  border-bottom-color: #ffbf00;
+  background-color: #1e6292;
 }
 
 .navLinks {
@@ -15,7 +14,7 @@
 }
 
 .navLinkItem {
-  padding: 5px 15px 5px 15px;
+  padding: 5px 25px 5px 25px;
 }
 
 .navLinkItem:hover .dropDown {

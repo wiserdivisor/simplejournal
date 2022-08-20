@@ -1,11 +1,11 @@
 import React from "react";
 import Layout from "../components/layout";
 
-function About() {
+function EvNews() {
   return (
-    <Layout pageTitle="About Us">
+    <Layout pageTitle="Guidelines">
     </Layout>
   );
 }
 
-export default About;
+export default EvNews;

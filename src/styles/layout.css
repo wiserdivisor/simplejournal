@@ -1,7 +1,6 @@
 .container {
   font-family: sans-serif;
   margin:-10px;
-  min-width:500px;
 }
 
 .dropDown {
@@ -22,7 +21,7 @@
 
 .headerDiv {
   padding: 15px;
-  background-color: #3c746b;
+  background-color: #1e6292;
   align-items: center;
 }
 

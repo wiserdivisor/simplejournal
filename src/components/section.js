@@ -26,16 +26,11 @@ const Section = ({
   return (
     <div
       id={idName}
-      style={{
-        textAlign: textAlign,
-        margin: "0px 0px 0px 0px",
-        padding: "0px 0px 0px 0px",
-      }}
-    >
-      <SectionHeader
-        title={title}
-        headerColor={headerColor}
-      />
+      style={{ 
+        textAlign: textAlign, 
+        margin: "0px 0px 0px 0px", 
+        padding: "0px 0px 0px 0px" }}>
+      <SectionHeader title={title} headerColor={headerColor} />
       <div style={{ color: "dimgrey", fontSize: 14, borderBottom:"1px solid "+borderColor }}>
         {children}
       </div>

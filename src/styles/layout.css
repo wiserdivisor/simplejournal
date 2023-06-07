@@ -1,5 +1,11 @@
 body{ margin:0px; }
 
+img{ border-radius: 5px; }
+a { 
+  font-weight: 300;
+  text-decoration: none; 
+}
+
 .container {
   font-family: sans-serif;
 }
@@ -26,4 +32,8 @@ body{ margin:0px; }
   font-family: sans-serif;
   font-size: 12px;
   margin-top: 0px;
+}
+
+.pdf::before {
+  content: "\01F4C4   ";
 }

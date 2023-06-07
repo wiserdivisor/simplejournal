@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/footer.css";
+import logo from "../../public/static/logo.png";
 
 const Footer = () => {
 
@@ -20,6 +21,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-div">
+        <a href="/"><img src={logo} alt="logo" width="200" /></a>
         <div className="footer-flex">
         </div>
       </div>

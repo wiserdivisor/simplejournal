@@ -6,7 +6,7 @@
   border-top-style: solid;
   padding: 20px;
   display: grid;
-  place-items: center;
+  place-items: left;
 }
 
 .footer-flex {

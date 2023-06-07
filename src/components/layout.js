@@ -10,7 +10,8 @@ const Layout = ({ pageTitle, pageSubTitle="Digital Journal of Science and Techno
       <div className="container">
         <Helmet
           htmlAttributes={{ lang: "en" }}
-          meta={[
+          meta={[]}
+          /*[
             {
               name: "viewport",
               content: "width=device-width, initial-scale=1.0",
@@ -27,17 +28,19 @@ const Layout = ({ pageTitle, pageSubTitle="Digital Journal of Science and Techno
                 "EV Course - Electric Vehicles Assembly, Maintenence & Repairs Training. Includes sizing, testing, troubleshooting and component-level repairs of battery, EV Controller, DC to DC converter and battery pack assembly. EV motors and hubs.",
             },
             { property: "og:url", content: "https://trainingev.gatsbyjs.io" },
-            {/* property: "og:image", content: `${logo}` */},
-          ]}
-          link={[{ rel: "icon", type: "image/x-icon", href: "xyz" }]}
+            { property: "og:image", content: `${logo}` },
+          ]*/
+          link={[]/*[{ rel: "icon", type: "image/x-icon", href: "xyz" }]*/}
         >
-          <title>{pageTitle} - ÆVRT</title>
+          <title>{pageTitle}</title>
+          {/*
           <meta property="og:url" content="https://trainingev.gatsbyjs.io" />
 
           <meta
             name="description"
             content="EV Course - Electric Vehicles Assembly, Maintenence & Repairs Training. Includes sizing, testing, troubleshooting and component-level repairs of battery, EV Controller, DC to DC converter and battery pack assembly. EV motors and hubs."
           />
+          */}
         </Helmet>
 
         <div className="headerDiv">
@@ -49,7 +52,7 @@ const Layout = ({ pageTitle, pageSubTitle="Digital Journal of Science and Techno
             }}
           >
             <p className="headerText" style={{margin:"25px 0px 20px 0px"}}>{pageTitle}</p>
-            <p className="headerSubtext">{pageSubTitle}</p>
+            {/* <p className="headerSubtext">{pageSubTitle}</p> */}
           </div>
         </div>
 

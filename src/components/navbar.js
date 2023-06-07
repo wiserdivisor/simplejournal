@@ -18,11 +18,16 @@ function Navbar() {
           </Link>
         </div>
 
+        {/*
+
         <div className="navLinkItem" style={{ backgroundColor: "#1e6292" }}>
           <Link to="/guidelines" className="navLinkText">
             Guidelines
           </Link>
         </div>
+
+        */}
+
         <div className="navLinkItem" style={{ backgroundColor: "#1e6292" }}>
           <Link to="/contact" className="navLinkText">
             Contact
